@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="atividade2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|atividade2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|atividade2|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|atividade2|memoram:ram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_6rs1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

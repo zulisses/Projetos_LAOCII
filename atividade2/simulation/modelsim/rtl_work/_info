@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Faculdade\LAOC II\pratica1\atividade2\simulation\modelsim
+vatividade2
+I`I=NA3dLP8o:e1NjLXci]3
+V[hCE4;V9;_nU89kmJ?Klc2
+Z1 dD:\Faculdade\LAOC II\pratica1\atividade2\simulation\modelsim
+w1692144338
+8D:/Faculdade/LAOC II/pratica1/atividade2/atividade2.v
+FD:/Faculdade/LAOC II/pratica1/atividade2/atividade2.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+D:/Faculdade/LAOC II/pratica1/atividade2} -O0
+!i10b 1
+!s100 5D^Hknf>2C97GV]NF<EV<1
+!s85 0
+!s108 1692568753.036000
+!s107 D:/Faculdade/LAOC II/pratica1/atividade2/atividade2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade2|D:/Faculdade/LAOC II/pratica1/atividade2/atividade2.v|
+!s101 -O0
+vdecodificadorComportamental
+Id;Ii<YPR[P[L@fkIJQ;PA3
+VkWa0J2@d9A_@>klZVlK=Q2
+R1
+w1692134657
+8D:/Faculdade/LAOC II/pratica1/atividade2/decodificadorComportamental.v
+FD:/Faculdade/LAOC II/pratica1/atividade2/decodificadorComportamental.v
+L0 1
+R2
+r1
+31
+R3
+ndecodificador@comportamental
+R4
+!i10b 1
+!s100 _HK97nJoTNniX6mOfV`=>0
+!s85 0
+!s108 1692568752.985000
+!s107 D:/Faculdade/LAOC II/pratica1/atividade2/decodificadorComportamental.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade2|D:/Faculdade/LAOC II/pratica1/atividade2/decodificadorComportamental.v|
+!s101 -O0
+vmemoram
+!i10b 1
+!s100 j>DfjiU]Q7:e5hd_aVoNf1
+IHbmc;>k2<<<C7VeU3^?zB0
+VRC4QzWPD:n6L8l4<IXQKf2
+R1
+w1692143176
+8D:/Faculdade/LAOC II/pratica1/atividade2/memoram.v
+FD:/Faculdade/LAOC II/pratica1/atividade2/memoram.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1692568753.073000
+!s107 D:/Faculdade/LAOC II/pratica1/atividade2/memoram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade2|D:/Faculdade/LAOC II/pratica1/atividade2/memoram.v|
+!s101 -O0
+R3
+R4
