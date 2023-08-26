@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="atividade3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|atividade3|cacheL1:cache|memoriaCache:memoria|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_bhe1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|atividade3|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|atividade3|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|atividade3|memoriaPrincipal:memoria|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_nof1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

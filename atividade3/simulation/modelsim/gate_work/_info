@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Faculdade\LAOC II\pratica1\atividade3\simulation\modelsim
+vatividade3
+!i10b 1
+!s100 ?hkG_P7XRgj^bRF:nme4U1
+I@`NGV?MgBO[Ckah8:_j:m0
+VzDHQ;Q4YJA>>:5KV[LPP]0
+Z1 dD:\Faculdade\LAOC II\pratica1\atividade3\simulation\modelsim
+w1692673844
+8atividade3.vo
+Fatividade3.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1692674279.212000
+!s107 atividade3.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|atividade3.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0
