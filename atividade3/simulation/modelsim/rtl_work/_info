@@ -4,10 +4,10 @@ K3
 cModel Technology
 Z0 dD:\Faculdade\LAOC II\pratica1\atividade3\simulation\modelsim
 vatividade3
-I0^WNk4:21eN=UUhCECGg[0
-VPX2IN;=idM[9cIOFa_PYJ0
+Ic6IbN9gzXGYlCJ5H0hA@[2
+V]0a30n>?WG=88Ui]A]b:50
 Z1 dD:\Faculdade\LAOC II\pratica1\atividade3\simulation\modelsim
-w1692987922
+w1693072687
 8D:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v
 FD:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v
 L0 1
@@ -17,17 +17,17 @@ r1
 Z3 o-vlog01compat -work work -O0
 Z4 !s92 -vlog01compat -work work {+incdir+D:/Faculdade/LAOC II/pratica1/atividade3} -O0
 !i10b 1
-!s100 g<8d3O;34Sn13:[GF1`8L1
+!s100 Gf243Mkf9@NF]R0<k[C?]3
 !s85 0
-!s108 1692990317.357000
+!s108 1693082027.201000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v|
 !s101 -O0
 vcacheL1
-I>R3d1[GUZ3=6AR76eL@Q82
-V4dA;Ja6<f`@Ghm<JVXULz2
+I8zOlmlhEoS;JZ_on;JHd^0
+V_:51V=KU0MVZf__>S4LW02
 R1
-w1692990281
+w1693081993
 8D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v
 FD:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v
 L0 1
@@ -38,9 +38,9 @@ R3
 R4
 ncache@l1
 !i10b 1
-!s100 CKMbGDBZ1fg0zm;:2N>oT0
+!s100 QaO7KnTF`HH:FbdnfM>Un1
 !s85 0
-!s108 1692990317.421000
+!s108 1693082027.240000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v|
 !s101 -O0
@@ -61,7 +61,7 @@ ndecodificador@comportamental
 !i10b 1
 !s100 QlobM2^YfIaR1W;cB:26?2
 !s85 0
-!s108 1692990317.468000
+!s108 1693082027.271000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/decodificadorComportamental.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/decodificadorComportamental.v|
 !s101 -O0
@@ -82,7 +82,7 @@ nmemoria@cache
 !i10b 1
 !s100 kPBGg_[HlF6cPXJ;YYGS@3
 !s85 0
-!s108 1692990317.530000
+!s108 1693082027.318000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v|
 !s101 -O0
@@ -100,7 +100,7 @@ R2
 r1
 !s85 0
 31
-!s108 1692990317.577000
+!s108 1693082027.349000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/memoriaprincipal.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/memoriaprincipal.v|
 !s101 -O0

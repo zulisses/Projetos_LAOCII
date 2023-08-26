@@ -41,26 +41,8 @@
 # Top level modules:
 # 	memoriaPrincipal
 # 
-vsim work.atividade3
-# vsim work.atividade3 
-# Loading work.atividade3
-# Loading work.decodificadorComportamental
-# Loading work.cacheL1
-# Loading work.memoriaCache
-# ** Error: (vsim-3033) D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
-# 
-#         Region: /atividade3/cache/memoria
-#         Searched libraries:
-#             D:/Faculdade/LAOC II/pratica1/atividade3/simulation/modelsim/rtl_work
-# Loading work.memoriaPrincipal
-# ** Error: (vsim-3033) D:/Faculdade/LAOC II/pratica1/atividade3/memoriaprincipal.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
-# 
-#         Region: /atividade3/memoria
-#         Searched libraries:
-#             D:/Faculdade/LAOC II/pratica1/atividade3/simulation/modelsim/rtl_work
-# Error loading design
-vsim -Lf altera_mf_ver work.atividade3
-# vsim -Lf altera_mf_ver work.atividade3 
+vsim +altera -Lf altera_mf_ver -do atividade3_run_msim_rtl_verilog.do -l msim_transcript -gui work.atividade3
+# vsim +altera -Lf altera_mf_ver -do atividade3_run_msim_rtl_verilog.do -l msim_transcript -gui work.atividade3 
 # Loading work.atividade3
 # Loading work.decodificadorComportamental
 # Loading work.cacheL1
@@ -69,34 +51,73 @@ vsim -Lf altera_mf_ver work.atividade3
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # Loading work.memoriaPrincipal
-# ** Warning: (vsim-3015) D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v(18): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'address'. The port definition is at: D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v(40).
+# ** Warning: (vsim-3015) D:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v(32): [PCDPC] - Port size (4 or 4) does not match connection size (2) for port 'SW'. The port definition is at: D:/Faculdade/LAOC II/pratica1/atividade3/decodificadorComportamental.v(1).
+# 
+#         Region: /atividade3/dig7
+# ** Warning: (vsim-3015) D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v(22): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'address'. The port definition is at: D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v(40).
 # 
 #         Region: /atividade3/cache/memoria
+# do atividade3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Faculdade/LAOC\ II/pratica1/atividade3 {D:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module atividade3
+# 
+# Top level modules:
+# 	atividade3
+# vlog -vlog01compat -work work +incdir+D:/Faculdade/LAOC\ II/pratica1/atividade3 {D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cacheL1
+# 
+# Top level modules:
+# 	cacheL1
+# vlog -vlog01compat -work work +incdir+D:/Faculdade/LAOC\ II/pratica1/atividade3 {D:/Faculdade/LAOC II/pratica1/atividade3/decodificadorComportamental.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decodificadorComportamental
+# 
+# Top level modules:
+# 	decodificadorComportamental
+# vlog -vlog01compat -work work +incdir+D:/Faculdade/LAOC\ II/pratica1/atividade3 {D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoriaCache
+# 
+# Top level modules:
+# 	memoriaCache
+# vlog -vlog01compat -work work +incdir+D:/Faculdade/LAOC\ II/pratica1/atividade3 {D:/Faculdade/LAOC II/pratica1/atividade3/memoriaprincipal.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoriaPrincipal
+# 
+# Top level modules:
+# 	memoriaPrincipal
+# 
 do {D:/Faculdade/LAOC II/pratica1/atividade3/simulation/modelsim/testeWriteBack.do}
 # .main_pane.wave.interior.cs.body.pw.wf
 # 1
 # 1
 # 1
+view -new wave
+# -new not supported on PE
 add wave -position insertpoint  \
-sim:/atividade3/hit_cache_out \
-sim:/atividade3/q_out \
+sim:/atividade3/tag_dirty \
+sim:/atividade3/dirty_cache \
+sim:/atividade3/validade \
+sim:/atividade3/dirty_out \
+sim:/atividade3/lru \
 sim:/atividade3/q_cache \
 sim:/atividade3/q_menPrin \
-sim:/atividade3/dirty_cache
+sim:/atividade3/hit_cache_out \
+sim:/atividade3/q_out
 add wave -position insertpoint  \
-sim:/atividade3/cache/aux_dirty \
-sim:/atividade3/cache/ativa_memoria \
-sim:/atividade3/cache/tags \
-sim:/atividade3/cache/lrus \
-sim:/atividade3/cache/validades \
-sim:/atividade3/cache/dirty
-add wave -position insertpoint  \
-sim:/atividade3/cache/q_out \
-sim:/atividade3/cache/tag_dirty_out \
-sim:/atividade3/cache/hit_out \
-sim:/atividade3/cache/dirty_out \
-sim:/atividade3/cache/i \
-sim:/atividade3/cache/j
+sim:/atividade3/cache/wren_cache
+run
+run
+run
 run
 run
 run

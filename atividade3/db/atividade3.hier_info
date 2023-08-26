@@ -38,7 +38,7 @@ HEX7[3] <= decodificadorComportamental:dig7.port1
 HEX7[2] <= decodificadorComportamental:dig7.port1
 HEX7[1] <= decodificadorComportamental:dig7.port1
 HEX7[0] <= decodificadorComportamental:dig7.port1
-LEDR[15] <= cacheL1:cache.dirty_final
+LEDR[15] <= cacheL1:cache.dirty_out
 LEDR[16] <= cacheL1:cache.validade_out
 LEDR[17] <= cacheL1:cache.hit_out
 
@@ -87,7 +87,7 @@ HEX0[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 |atividade3|cacheL1:cache
 clock_in => clock_in.IN1
-wren_in => ativa_memoria.DATAA
+wren_in => wren_cache.DATAA
 wren_in => dirty.OUTPUTSELECT
 wren_in => dirty.OUTPUTSELECT
 wren_in => dirty.OUTPUTSELECT
@@ -161,7 +161,7 @@ q_out[5] <= memoriaCache:memoria.q
 q_out[6] <= memoriaCache:memoria.q
 q_out[7] <= memoriaCache:memoria.q
 hit_out <= hit_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-dirty_out <= dirty_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dirty_ctr_out <= dirty_ctr_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
 tag_dirty_out[0] <= tag_dirty_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 tag_dirty_out[1] <= tag_dirty_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 tag_dirty_out[2] <= tag_dirty_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -170,7 +170,7 @@ tag_dirty_out[4] <= tag_dirty_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 lru_out[0] <= lru_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 lru_out[1] <= lru_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 validade_out <= validade_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-dirty_final <= dirty_final~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dirty_out <= dirty_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |atividade3|cacheL1:cache|memoriaCache:memoria
