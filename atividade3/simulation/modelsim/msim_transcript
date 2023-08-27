@@ -57,6 +57,11 @@ vsim +altera -Lf altera_mf_ver -do atividade3_run_msim_rtl_verilog.do -l msim_tr
 # ** Warning: (vsim-3015) D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v(22): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'address'. The port definition is at: D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v(40).
 # 
 #         Region: /atividade3/cache/memoria
+do {D:/Faculdade/LAOC II/pratica1/atividade3/simulation/modelsim/testeWriteBack.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+# 1
+# 1
 # do atividade3_run_msim_rtl_verilog.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -96,31 +101,20 @@ vsim +altera -Lf altera_mf_ver -do atividade3_run_msim_rtl_verilog.do -l msim_tr
 # Top level modules:
 # 	memoriaPrincipal
 # 
-do {D:/Faculdade/LAOC II/pratica1/atividade3/simulation/modelsim/testeWriteBack.do}
-# .main_pane.wave.interior.cs.body.pw.wf
-# 1
-# 1
-# 1
-view -new wave
-# -new not supported on PE
 add wave -position insertpoint  \
-sim:/atividade3/tag_dirty \
-sim:/atividade3/dirty_cache \
-sim:/atividade3/validade \
-sim:/atividade3/dirty_out \
-sim:/atividade3/lru \
-sim:/atividade3/q_cache \
-sim:/atividade3/q_menPrin \
-sim:/atividade3/hit_cache_out \
 sim:/atividade3/q_out
 add wave -position insertpoint  \
-sim:/atividade3/cache/wren_cache
+sim:/atividade3/q_menPrin
+add wave -position insertpoint  \
+sim:/atividade3/q_cache
+add wave -position insertpoint  \
+sim:/atividade3/hit_cache_out
+add wave -position insertpoint  \
+sim:/atividade3/cache/tags \
+sim:/atividade3/cache/lrus \
+sim:/atividade3/cache/validades \
+sim:/atividade3/cache/dirty
 run
 run
 run
-run
-run
-run
-run
-run
-run
+# WARNING: No extended dataflow license exists

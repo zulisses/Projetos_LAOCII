@@ -79,7 +79,7 @@ module cacheL1(clock_in, wren_in, endereco_in, data_in, data_memPrin_in, q_out, 
 			
 			// variaveis de controle auxiliares 
 			miss_aux = 0;
-			aux_dirty = 0;
+			aux_dirty = 1;
 		end else begin // cache miss
 			
 			aux_dirty = 0;

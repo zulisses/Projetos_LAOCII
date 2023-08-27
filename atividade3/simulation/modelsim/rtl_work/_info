@@ -19,15 +19,15 @@ Z4 !s92 -vlog01compat -work work {+incdir+D:/Faculdade/LAOC II/pratica1/atividad
 !i10b 1
 !s100 Gf243Mkf9@NF]R0<k[C?]3
 !s85 0
-!s108 1693082027.201000
+!s108 1693170049.175000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/atividade3.v|
 !s101 -O0
 vcacheL1
-I8zOlmlhEoS;JZ_on;JHd^0
+IOjIk4D9a5XU767^e[Cedm2
 V_:51V=KU0MVZf__>S4LW02
 R1
-w1693081993
+w1693170001
 8D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v
 FD:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v
 L0 1
@@ -38,9 +38,9 @@ R3
 R4
 ncache@l1
 !i10b 1
-!s100 QaO7KnTF`HH:FbdnfM>Un1
+!s100 cEFB=<WDUOm1@V8>1Y7da3
 !s85 0
-!s108 1693082027.240000
+!s108 1693170049.242000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/cacheL1.v|
 !s101 -O0
@@ -61,7 +61,7 @@ ndecodificador@comportamental
 !i10b 1
 !s100 QlobM2^YfIaR1W;cB:26?2
 !s85 0
-!s108 1693082027.271000
+!s108 1693170049.291000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/decodificadorComportamental.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/decodificadorComportamental.v|
 !s101 -O0
@@ -82,7 +82,7 @@ nmemoria@cache
 !i10b 1
 !s100 kPBGg_[HlF6cPXJ;YYGS@3
 !s85 0
-!s108 1693082027.318000
+!s108 1693170049.342000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/memoriacache.v|
 !s101 -O0
@@ -100,7 +100,7 @@ R2
 r1
 !s85 0
 31
-!s108 1693082027.349000
+!s108 1693170049.382000
 !s107 D:/Faculdade/LAOC II/pratica1/atividade3/memoriaprincipal.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Faculdade/LAOC II/pratica1/atividade3|D:/Faculdade/LAOC II/pratica1/atividade3/memoriaprincipal.v|
 !s101 -O0
